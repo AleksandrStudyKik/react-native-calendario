@@ -297,7 +297,7 @@ export default class Calendar extends React.Component<CalendarProps, State> {
       <FlatList
         getItemLayout={this.getItemLayout}
         initialScrollIndex={this.state.initialScrollIndex}
-        viewabilityConfig={VIEWABILITY_CONFIG}
+        //viewabilityConfig={VIEWABILITY_CONFIG}
         removeClippedSubviews
         onViewableItemsChanged={this.handleViewableItemsChange}
         initialNumToRender={this.props.initialListSize}
